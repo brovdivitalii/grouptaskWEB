@@ -32,17 +32,18 @@ background-color: #f6f8f9;
         border-right: solid rgb(212, 212, 212) 1px;
         border-left: solid rgb(212, 212, 212) 1px;
         padding: 15px;
-        display: block;
-        padding-left: auto;
-        padding-right: auto;
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
         
     }
     .p41, .p42, .p43{
         width: 30px;
     }
     .div5 { grid-area: 1 / 5 / 2 / 6; 
-        
-        padding: 15px; 
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 20px;
     }
     .div6 { grid-area: 2 / 2 / 3 / 6;   
         padding: 15px; 
@@ -65,4 +66,18 @@ background-color: #f6f8f9;
     input {outline:none;}
     input::placeholder {
         text-align: right;
+    }
+    .div31, .div32, .div33, .div34, .div35, .div41, .div42, .div43{
+        transition: 0.3s; 
+    }
+    .div31:hover, .div32:hover, .div33:hover, .div34:hover, .div35:hover, .div41:hover, .div42:hover, .div43:hover{
+        transform: translateY(-10px);
+    }
+    .avatar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        object-fit: cover;
+        border-radius: 50%;
     }
