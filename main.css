@@ -1,0 +1,156 @@
+/*Vitalii*/
+body{
+    background-color: #f6f8f9;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
+        grid-template-rows: repeat(2, 0.5fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: white;
+        }
+    .div2, .div3, .div4, .div5{
+            border-bottom: solid rgb(212, 212, 212) 1px;
+            
+        }
+    .div1 { grid-area: 1 / 1 / 2 / 2; 
+            border-right: solid rgb(212, 212, 212) 1px;
+            border-bottom: solid rgb(212, 212, 212) 1px;
+            padding: 15px;
+        }
+    .div2 { grid-area: 1 / 2 / 2 / 3; 
+            padding: 15px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-evenly; 
+        }
+    .div3 { grid-area: 1 / 3 / 2 / 4; 
+            
+            padding: 15px; 
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center; 
+            justify-content: space-evenly; 
+        }
+    .div35{ color: red; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; 
+            border-right: solid rgb(212, 212, 212) 1px;
+            border-left: solid rgb(212, 212, 212) 1px;
+            padding: 15px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-evenly;
+            
+        }
+    .p41, .p42, .p43{
+            width: 30px;
+        }
+    .div5 { grid-area: 1 / 5 / 2 / 6; 
+            padding-top: 20px;
+            padding-bottom: 15px;
+            padding-left: 20px;
+        }
+    .div6 { grid-area: 2 / 2 / 3 / 4;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10.5pt;
+            padding: 15px;
+            display: flex;
+            align-items: center; 
+            justify-content: flex-start;
+              
+        }
+    .logo{
+            text-align: end;
+        }
+    .search{
+        padding: 12px;
+        font-size: 15px;
+        border-width: 2px;
+        border-color: #CCCCCC;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-style: solid;
+        border-radius: 33px;
+        box-shadow: 0px 0px 0px rgba(66,66,66,.75);
+        text-shadow: 0px 0px 5px rgba(66,66,66,.0);
+        }
+    input {
+        
+        outline:none;
+        background: url(/img/magnifier_icon-icons.com_48267.ico) no-repeat center right+10px;
+        background-size: 10%;
+        
+    }
+    input::placeholder {
+    
+            text-align: lef;
+        }
+    .div31, .div32, .div33, .div34, .div35, .div41, .div42, .div43{
+            transition: 0.3s; 
+            cursor: pointer;
+        }
+    .div31:hover, .div32:hover, .div33:hover, .div34:hover, .div35:hover, .div41:hover, .div42:hover, .div43:hover{
+            transform: translateY(-5px);
+        }
+    .avatar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .div61{
+            padding: 3px;
+            border-bottom: solid 3px rgb(41, 199, 205);
+            cursor: pointer;
+        }
+    .div62, .div63, .div64{
+        margin-left: 40px;
+        position: relative;
+        color: #868686; 
+        cursor: pointer;
+        line-height: 2; 
+        text-decoration: none; 
+        cursor: pointer;
+    }
+    .div6 a::before{
+        content: "";
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(41, 199, 205);
+        transition: 0.1s;
+        transform: scaleX(0);
+    }
+    .div6 a:hover:before{
+        transform: scaleX(1);
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        }
+/*slavik*/
+.products {
+    display: grid;
+    grid-template-columns:repeat(4, 2fr);
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.FT {
+    right: 50px;
+    font-size: 30px;
+    color: rgb(66, 84, 93);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+        
+        
