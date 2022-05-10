@@ -1,6 +1,7 @@
 /*Vitalii*/
 body{
     background-color: #f6f8f9;
+    font-family: 'Montserrat', sans-serif;
     }
     .parent {
         display: grid;
@@ -133,8 +134,74 @@ body{
     .container {
         display: flex;
         flex-direction: row;
-        justify-content:space-between;
+        justify-content:space-evenly;
         }
+    .column2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .arrows{
+        display: flex;
+        
+    }       
+    .arr{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: #bed8ff solid 0.01px;
+    }
+    .arrow{
+        cursor: pointer;
+        color: rgb(25, 98, 161);
+        margin: 5px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: solid 2px rgb(25, 98, 161);
+        border-radius: 50%;
+    }
+    .box2{
+        background-color: white;
+        margin: 15px;
+        border: #bed8ff solid 0.01px;
+        height: 100%;
+    }
+    .posttext{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+         transform: translateY(25%);
+    }
+    .post_photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .post_photo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .post_photo img{
+        width: 180px; height: 180px;
+    }
+    .postinfo{
+        padding-top: 5px;
+        width: 180px;
+        word-wrap: break-word;
+        font-weight:400;
+        font-family: 'Roboto Flex', sans-serif;
+        color: #2c2c2c;
+    }
+    .notice{
+        color: #868686;
+        font-size: 85%;
+        padding-top: 5px;
+        font-weight: lighter;
+    }
+
 /*slavik*/
 .products {
     display: grid;
