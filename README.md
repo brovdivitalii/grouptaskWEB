@@ -1,2 +1,3 @@
 # grouptaskWEB
-group task of web
+HEADER - VITALII BROVDI
+POSTS BLOCK - VITALII BROVDI
