@@ -138,18 +138,44 @@ body{
 /*slavik*/
 .products {
     display: grid;
-    grid-template-columns:repeat(4, 2fr);
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 2px solid gray;
-    border-radius: 15px;
+    margin-top: 30px;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70px);
+}
+.products img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.products content {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .FT {
-    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    border-bottom: 2px solid rgb(218, 216, 216);
     font-size: 30px;
     color: rgb(66, 84, 93);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.follow-button1 {
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    border: 1px solid lightblue;
+    border-radius: 50px;
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: lightblue;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0,2s;
+}
+
 
 
         
