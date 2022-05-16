@@ -234,18 +234,93 @@ body{
 /*slavik*/
 .products {
     display: grid;
-    grid-template-columns:repeat(4, 2fr);
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 2px solid gray;
-    border-radius: 15px;
+    margin-top: 30px;
+    margin-right: 500px;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70px);
+}
+.products img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.products content {
+    margin-left: 0px;
+    margin-right: 10px;
 }
 .FT {
-    right: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    border-bottom: 2px solid rgb(218, 216, 216);
     font-size: 30px;
     color: rgb(66, 84, 93);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.grid-content {
+    margin: 0px 20px;
+    margin-top: 40px;
+}
+  
+
+  
+.follow-buttons {
+    display: flex;
+    align-items: center;
+}
+  
+.follow-button1 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #5eb4e5;
+    color: #5eb4e5;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+  
+.follow-button1 img {
+    height: 8px;
+}
+  
+.follow-button2 {
+    background-color: transparent;
+    border: 0px;
+    color: #5eb4e5;
+}
+  
+.follow-buttons:hover .follow-button2 {
+    text-decoration: underline;
+}
+  
+.follow-buttons:hover .follow-button1 {
+    filter: brightness(1);
+}
+  
+.button {
+    border: 1px solid #5eb4e5;
+    border-radius: 50px;
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #5eb4e5;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+  
+.button:hover {
+    filter: brightness(1);
+}
+  
 
 
  /*sofia*/
