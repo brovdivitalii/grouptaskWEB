@@ -135,6 +135,101 @@ body{
         flex-direction: row;
         justify-content:space-between;
         }
+    .column2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .arrows{
+        display: flex;
+        
+    }       
+    .arr{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: #bed8ff solid 0.01px;
+    }
+    .arrow{
+        cursor: pointer;
+        color: rgb(25, 98, 161);
+        margin: 5px;
+        padding-left: 13px;
+        padding-right: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: solid 2px rgb(25, 98, 161);
+        border-radius: 50%;
+    }
+    .box2{
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #e4f1fc;
+        height: 100%;
+    }
+
+    .post_photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .post_photo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .post_photo img{
+        width: 180px; height: 180px;
+    }
+    .postinfo{
+        padding-top: 5px;
+        width: 180px;
+        word-wrap: break-word;
+        font-weight:400;
+        font-family: 'Roboto Flex', sans-serif;
+        color: #2c2c2c;
+    }
+    .notice{
+        color: #868686;
+        font-size: 85%;
+        padding-top: 5px;
+        font-weight: lighter;
+    }
+    .posts-top {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        border-bottom: 2px solid #f5f5f5;
+        text-transform: uppercase;
+        margin-top: 20px;
+        border-top: 1px solid #e4f1fc;
+      }
+      .posts-top div {
+        padding-right: 50px;
+      }
+      .posts-top img:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .posts-top img:active {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .posts-top a:last-child img {
+        transform: scale(-1, 1);
+      }
+      .posts-top h1 {
+        margin-left: 30px;
+        font-size: 25px;
+        color: #333;
+      }
+      .posts-top img {
+        padding: 10px; 
+        height: 10px;
+        margin-left: 8px;
+        border: 2.5px solid #3d509e;
+        border-radius: 50px;
+      }
+
 /*slavik*/
 .products {
     display: grid;
@@ -224,5 +319,145 @@ body{
   
 
 
-        
+ /*sofia*/
+ .recomendations {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: 1px solid #e4f1fc;
+    margin: 20px 0px 0px;
+    padding-bottom: 30px; 
+    height: 120%;
+    width: 100%; 
+  }
+  .recomendations-top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: 2px solid #f5f5f5;
+    text-transform: uppercase;
+  }
+  .recomendations-top div {
+    padding-right: 50px;
+  }
+  .recomendations-top img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .recomendations-top img:active {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .recomendations-top a:last-child img {
+    transform: scale(-1, 1);
+  }
+  .recomendations-top h1 {
+    margin-left: 30px;
+
+    font-size: 25px;
+    color: #333;
+  }
+  .recomendations-top img {
+    padding: 10px; 
+    height: 10px;
+    margin-left: 8px;
+    border: 2.5px solid #3d509e;
+    border-radius: 50px;
+  }
+  .recomendations-main {
+    display: flex;  
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    flex-direction: 200px;
+    color: #333;
+  }
+  .recomendations-main a {
+    text-decoration: none;
+    color: #333;
+  }
+  .recomendations-main div {
+    width: 200px;
+  }
+  .recomendations-main div:hover .text {
+    text-decoration: underline;
+  }
+  .recomendations-main img {
+    height: 200px;
+  }
+  .recomendations-main .text {
+    margin-top: 7px;
+  }
+  .recomendations-main-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #333;
+  }
+  .message-card {
+    margin: 0px 20px;
+    margin-top: 40px;
+  }
+  .message-card img {
+    position: absolute;
+  }
+  #box5 .message-card div {
+    margin-left: 60px;
+    margin-top: 5px;
+  }
+  #box5 .recomendations {
+    margin-bottom: 20px;
+  }
+  .recomendations-main-grid label {
+    border: 2px #f5f5f5 solid;
+    margin: 0px 20px;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+  }
+  .recomendations-main-grid label::before {
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: #f5f5f5 transparent transparent transparent; 
+    content: "";
+  
+  }
+  .recomendations-main-grid label::after {
+    display: block;
+    position: absolute;
+    bottom: -36px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 0;
+    border-color: white transparent transparent transparent;
+    content: " ";
+  }
+  .recomendations-main-grid label:nth-child(2)::after {
+    left: -1px;
+  }
+  .name {
+    font-size: 18px;
+    left: 550px;
+  }
+  .company {
+    margin-top: 5px;
+    color: #c1c1c1;
+    font-style: normal;
+  }
+  .avatar {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 50px;
+  }
+         
         
