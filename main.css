@@ -233,10 +233,20 @@ body{
 /*slavik*/
 .products {
     display: grid;
-    margin-top: 30px;
-    margin-right: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(1, 70px);
+}
+.box6{
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  border: 1px solid #e4f1fc;
+  margin: 20px 0px 0px;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
 }
 .products img {
     margin-left: 10px;
